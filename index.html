@@ -1,326 +1,96 @@
 
-<html>
+<html
+   <head>
+     <title>Karan Grewal</title>
 
-<head>
-<title>Karan Grewal</title>
-<style type="text/css" media="screen">
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
-font, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, dl, dt,
-dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
-thead, tr, th, td {
-  border: 0pt none;
-  font-family: inherit;
-  font-size: 100%;
-  font-style: inherit;
-  font-weight: inherit;
-  margin: 0pt;
-  outline-color: invert;
-  outline-style: none;
-  outline-width: 0pt;
-  padding: 0pt;
-  vertical-align: baseline;
+     <link rel="stylesheet" href="style.css"/>
+
+<script type="text/javascript" language="javascript">
+<!--
+// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+// This code is freeware provided these four comment lines remain intact
+// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+{ coded = "L0RWLYmzHCzCTLT@J8Tz4.q08"
+  key = "9TxWFdQL4ICmYE3XqSiRHZU0JK1fOpk7j2w58GaMeDyzrlVhnt6PucNvbsBAog"
+  shift=coded.length
+  link=""
+  for (i=0; i<coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+  }
 }
-
-a {
-  color: #1772d0;
-  text-decoration:none;
-}
-
-a2 {
-  color: #1772d0;
-  text-decoration:none;
-}
-
-a:focus, a:hover {
-  color: #f09228;
-  text-decoration:none;
-}
-
-a2.paper2  {
-  font-weight: bold;
-  font-size: 12pt;
-}
-
-a.paper {
-  font-weight: bold;
-  font-size: 12pt;
-}
-
-b.paper {
-  font-weight: bold;
-  font-size: 12pt;
-}
-
-* {
-  margin: 0pt;
-  padding: 0pt;
-}
-
-body {
-  position: relative;
-  margin: 3em auto 2em auto;
-  width: 800px;
-  font-family: Lato, Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  background: #eee;
-}
-
-h2 {
-  font-family: Lato, Verdana, Helvetica, sans-serif;
-  font-size: 15pt;
-  font-weight: 700;
-}
-
-h4 {
-  font-family: Lato, Verdana, Helvetica, sans-serif;
-  font-size: 13pt;
-  font-weight: 700;
-}
-
-h3 {
-  font-family: Lato, Verdana, Helvetica, sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-}
-
-strong {
-  font-family: Lato, Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-}
-
-ul {
-  list-style: circle;
-}
-
-img {
-  border: none;
-}
-
-li {
-  padding-bottom: 0.5em;
-  margin-left: 1.4em;
-}
-
-strong, b {
-  font-weight:bold;
-}
-
-em, i {
-  font-style:italic;
-}
-
-div.section {
-  clear: both;
-  margin-bottom: 1.5em;
-  background: #eee;
-}
-
-div.spanner {
-  clear: both;
-}
-
-div.paper {
-  clear: both;
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
-  border: 1px solid #ddd;
-  background: #fff;
-  padding: 1em 1em 1em 1em;
-}
-
-div.paper div {
-  padding-right: 230px;
-}
-
-div.paper div.wide {
-  padding-right: 0px;
-}
-
-img.paper {
-  margin-bottom: 0.5em;
-  float: right;
-  width: 200px;
-}
-
-div.paper2 {
-  clear: both;
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
-  border: 1px solid #ddd;
-  background: #fff;
-  padding: 1em 1em 1em 1em;
-}
-
-div.paper2 div {
-  padding-right: 230px;
-}
-
-div.paper2 div.wide {
-  padding-right: 0px;
-}
-
-img.paper2 {
-  margin-bottom: 0.5em;
-  float: right;
-  width: 200px;
-}
-
-span.blurb {
-  font-style:italic;
-  display:block;
-  margin-top:0.75em;
-  margin-bottom:0.5em;
-}
-
-pre, code {
-  font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
-  margin: 1em 0;
-  padding: 0;
-}
-
-div.paper pre {
-  font-size: 0.9em;
-}
-
-</style>
-
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-7953909-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+//-->
 </script>
 
-<script type="text/javascript" src="js/hidebib.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
- rel="stylesheet" type="text/css" />
-</head>
+  ga('create', 'UA-68419320-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script>
+function copy(dest, source) {
+  if(dest.source == source) {
+    dest.innerHTML = "";
+    dest.source = null;
+  }
+  else {
+    dest.innerHTML = source.innerHTML;
+    dest.source = source;
+  }
+  dest.blur();
+}
+</script>
+
+   </head>
 
 <body>
+  <div id="contents">
 
-<div style="margin-bottom: 1em; border: 1px solid #ddd; background-color: #fff; padding: 1em; height: 200px;">
-  <div style="margin: 0 auto; width: 80%; line-height: 130%;">
-    <img title="profile" style="float: right; padding-right: .5em; height: 200px;" src="img/profile.jpg" />
-    <div style="padding-left: 1em; vertical-align: top; height: 250px;">
-      <span style="font-size: 36pt; line-height: 130%;">Karan Grewal </span>
-      <br />
-      Email: <a href="mailto:karanraj.grewal@mail.utoronto.ca" target="_blank">karanraj.grewal@mail.utoronto.ca<img style="height: 7pt;" /></a><br />
-      Github: <a href="https://github.com/karangrewal" target="_blank">github.com/karangrewal<img style="height: 7pt;"/></a><br />
-      LinkedIn: <a href="https://www.linkedin.com/in/karan-grewal-b91077bb/" target="_blank">linkedin.com/karangrewal<img style="height: 7pt;"/></a>
-    </div>
-  </div>
-</div>
 
-<div style="clear: both;"><!-- page div -->
+<h2>Karan Grewal</h2>
 
-<div class="section">
-<h3>About me</h3>
-  <div class="paper">
-    <p>Hey there! I'm a senior at the University of Toronto.</p>
-    <br />
-    <p>I am very fortunate to work with <a href="http://www.cs.toronto.edu/~khai/" target="_blank">Khai Truong</a> at the <a href="https://www.dgp.toronto.edu/home/" target="_blank">DGP Lab</a>, and <a a href="https://scholar.google.ca/citations?user=68c5HfwAAAAJ&hl=en" target="_blank">Devon Hjelm</a> and <a href="hhttp://www.iro.umontreal.ca/~bengioy/yoshua_en/" target="_blank">Yoshua Bengio</a> at <a a href="https://mila.quebec/en/" target="_blank">MILA</a> on cutting-edge research problems in Human-Computer Interaction and Deep Learning.</p>
-    <br />
-    <p>I'm interested in creating human-level intelligence through equipping AI with human-like cognitive behaviour. So far, my work has been on improving deep generative models through improved representation learning and zero-shot generalization.</p>
-    <br />
+<img style="float:right" src="img/profile.jpg" height="200" hspace="40">
+
+  <p>Hey there! I'm a senior at the University of Toronto.</p>
+    <p>I am very fortunate to work with <a href="http://www.cs.toronto.edu/~khai/" target="_blank">Khai Truong</a> at the <a href="https://www.dgp.toronto.edu/home/" target="_blank">DGP Lab</a>, and <a a href="https://scholar.google.ca/citations?user=68c5HfwAAAAJ&hl=en" target="_blank">Devon Hjelm</a> and <a href="http://www.iro.umontreal.ca/~bengioy/yoshua_en/" target="_blank">Yoshua Bengio</a> at <a a href="https://mila.quebec/en/" target="_blank">MILA</a> on cutting-edge research problems in Human-Computer Interaction and Deep Learning.
+    <p>I want to recreate human intelligence. I think representation learning, the math behind learning in modern AI, and understanding natural language are key topics/problems that offer insights into how to further advance computational intelligence. So far, my work has been on improving deep generative models through improved representation learning and zero-shot generalization.</p>
     <p>Previously, I spent a few months studying at the National University of Singapore. Feel free to get in touch! :-)</p>
+
+<h3> Contact </h3>
+<ul>
+  <li><a href="mailto:karanraj.grewal@mail.utoronto.ca" target="_blank">karanraj.grewal@mail.utoronto.ca<img style="height: 7pt;" /></a>
+  <li><a href="https://github.com/karangrewal" target="_blank">GitHub<img style="height: 7pt;"/></a></li>
+  <li><a href="https://www.linkedin.com/in/karan-grewal-b91077bb/" target="_blank">LinkedIn<img style="height: 7pt;"/></a></li>
+</ul>
+
+<h3>Papers</h3>
+<ul>
+  <li><b>Variance Regularizing Adversarial Learning</b><br>
+    Karan Grewal, R Devon Hjelm, Yoshua Bengio.<br>
+    Submitted to <i>ICLR 2018</i>, in <i>ICML Workshop on Implicit Generative Models</i>, 2017.<br>
+    <font size="-1">[<a href="https://openreview.net/pdf?id=rkeZRGbRW">pdf</a>]</font> <font size="-1">[<a href="https://arxiv.org/pdf/1707.00309.pdf">workshop version</a>] [<a href="http://www.cs.toronto.edu/~grewal/vral.pdf">slides</a>]</font><br>
+    <div id="div9"></div><br>
+
+  <li><b>On the Challenges of Detecting Rude Conversational Behaviour</b><br>
+    Karan Grewal, Khai N. Truong.<br>
+    ArXiv pre-print, 2017.<br>
+    <font size="-1">[<a href="https://karangrewal.github.io/papers/rudeness.pdf">pdf</a>]</font><br>
+    <div id="div9"></div>
+</ul>
+
   </div>
-</div>
-
-<!-- I left this here just in case you bothered to look for it.
-<div class="section">
-  <h3>I'm on the faculty job market</h3><a href="https://dl.dropboxusercontent.com/s/hswkdta7pmxhqvv/cv.pdf?dl=0">cv</a> / <a href="https://dl.dropboxusercontent.com/s/ip1nxlff8v8ssgi/research.pdf?dl=0">research statement</a> / <a href="https://dl.dropboxusercontent.com/s/g4p52puyfx4wciz/teaching.pdf?dl=0">teaching statement</a>
-  / <a href="http://scholar.google.com/citations?user=W8VIEZgAAAAJ&hl=en&oi=ao">google scholar</a>
-</div>
--->
-
-<!--- TEMPLATE
-<div class="paper" id="X">
-  <img class="paper" title="X" src="images/X.png" />
-  <div>
-    <a class="paper" onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', 'X-eccv-14']);" href="papers/X.pdf">X</a><br />
-    <strong>Ross Girshick</strong> <br />
-    European Conference on Computer Vision (ECCV), 2014<br />
-    <a shape="rect" href="javascript:toggleabs('X')" class="toggleabs">abstract</a> /
-    <a shape="rect" href="javascript:togglebib('X')" class="togglebib">bibtex</a>
-    <pre xml:space="preserve">
-@inproceedings{X,
-  Author    = {X},
-  Title     = {X},
-  Booktitle = {Proceedings of the European
-               Conference on Computer Vision ({ECCV})},
-  Year      = {2014}}
-    </pre>
-    <span class="blurb">X</span>
-  </div>
-  <div class="spanner"></div>
-</div>
--->
-
-<div class="section">
-<h3 id="reports">Papers</h3>
-
-<div class="paper" id="vral2017">
-  <div class="wide">
-    <h3>Variance Regularizing Adversarial Learning</h3> [<a href="https://openreview.net/pdf?id=rkeZRGbRW" target="_blank">PDF</a>, <a href="https://arxiv.org/pdf/1707.00309.pdf" target="_blank">Workshop Version</a>, <a href="http://www.cs.toronto.edu/~grewal/vral.pdf" target="_blank">Slides</a>]<br />
-
-    <strong>Karan Grewal</strong>*, R Devon Hjelm*, Yoshua Bengio.<br />
-    <i>Submitted to ICLR 2018. In ICML Workshop on Implicit Generative Models, 2017.</i>
-  </div>
-</div>
-
-<div class="paper" id="vral2017">
-  <div class="wide">
-    <h3>On the Challenges of Detecting Rude Conversational Behaviour</h3> [PDF coming soon!]<br />
-    <strong>Karan Grewal</strong>, Khai N. Truong.<br />
-    <i>ArXiv pre-print, 2017.</i>
-  </div>
-</div>
-
-</div>
-
-<!--
-<div class="section">
-<h2 id="reports">Education</h2>
-<div class="paper" id="ren2015faster">
-  <img class="paper" title="Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks" src="https://www.mie.utoronto.ca/wp-content/themes/uoft_bootstrap3/uoft_bootstrap3/_inc/img/U-of-T-logo.svg" />
-  <div>
-    <a class="paper" onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', 'faster-rcnn-nips-15']);">University of Toronto</a><br />
-    B.Sc., Specialist in <strong>Computer Science</strong>, Major in <strong>Mathematics</strong><br />
-    2014 - 2018
-  </div>
-  <div class="spanner"></div>
-</div>
-
-<div class="paper" id="ren2015faster">
-  <img class="paper" title="Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks" src="http://www.nus.edu.sg/templates/t3_nus2015/images/assets/logos/logo.png" />
-  <div>
-    <a class="paper" onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', 'faster-rcnn-nips-15']);">National University of Singapore</a><br />
-    Visiting Student<br />
-    2017
-  </div>
-  <div class="spanner"></div>
-</div>
-
-</div> -->
-
-</div><!-- close page div -->
-
-<div style="clear:both;">
-  <p align="center">Thanks to <font size="2"><a href="http://www.rossgirshick.info/" target="_blank">Ross Girshick</a> and <font size="2"><a href="https://jonbarron.info/" target="_blank">Jon Barron</a> for the website template.</font></p><br />
-</div>
-
-<script xml:space="preserve" language="JavaScript">
-hideallbibs();
-hideallabs();
-</script>
-
 </body>
-
 </html>
