@@ -1,72 +1,136 @@
 
-<!doctype html>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
     <title>Karan Grewal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
 
-    <link href="https://karangrewal.github.io/" rel="canonical" />
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <!-- Le styles -->
+    <link href="http://www.math.toronto.edu/jacopods/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="http://www.math.toronto.edu/jacopods/css/global.css" rel="stylesheet">
 
-    <meta name="title" content="Karan Grewal">
-    <meta name="description" content="Homepage of Karan Grewal">
-    <meta id="meta-tag-description" property="og:description" content="Homepage of Karan Grewal">
-  </head>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
 
+    <!-- Google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-43808089-1', 'toronto.edu');
+      ga('send', 'pageview');
+    </script>
+    <!---------------------->
+
+    </head>
   <body>
-    <div id="layout-content">
-      <table class="imgtable"><tr><td>
-        <img src="img/profile.jpg" style="padding:0 1.5em 0 0" alt="alt text" width="180px" />&nbsp;</td>
-        <td align="left"><h1>Karan Grewal</h1>
-        <p>
-          email: karanraj.grewal@mail.utoronto.ca<br>
+<nav class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand">Karan Grewal</a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+      <li class="active"><a><i class="glyphicon glyphicon-home glyphicon-large"></i> Home</a></li>
+      <li><a href="cv.html"><i class="glyphicon glyphicon-user glyphicon-large"></i> Vitæ</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md col-md-offset-2">
+          <img src="img/profile.jpg" style="padding:0 1.5em 0 0" alt="alt text" width="320px" />
+        </div>
+        <div class="col-md-4 plasmoid-like">
+        <address>
+          <strong>Contact Information</strong><br>
+          <a href="mailto:karanraj.grewal@mail.utoronto.ca">karanraj.grewal@mail.utoronto.ca</a><br>
           <a href="https://scholar.google.ca/citations?user=6hUpspoAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a><br>
           <a href="https://www.linkedin.com/in/karan-grewal-b91077bb/" target="_blank">LinkedIn</a><br>
-          <a href="https://karangrewal.github.io/cv.pdf" target="_blank">CV</a>
-
-        </p>
-      </td></tr></table>
-      <h2>About</h2>
+        </address>
+        <h3>About Me</h3>
         <p>
           Hey there! I am a senior undergraduate student at the University of Toronto. I am very fortunate to work with <a href="http://www.cs.toronto.edu/~khai/" target="_blank">Khai Truong</a> at the <a href="https://www.dgp.toronto.edu/home/" target="_blank">DGP Lab</a>, and <a a href="https://scholar.google.ca/citations?user=68c5HfwAAAAJ&hl=en" target="_blank">Devon Hjelm</a> and <a href="http://www-labs.iro.umontreal.ca/~bengioy/yoshua_fr/indexfr.html" target="_blank">Yoshua Bengio</a> at <a a href="https://mila.quebec/" target="_blank">MILA</a>.
         </p> 
-
         <p>
           As an undergrad, I have worked on training generative models, discovering rude behaviour through language and acoustic cues, and learning routine behaviour with topic models.
-        </p> 
-
-        <p>
-          Feel free to send me an email to get in touch.
         </p>
-
-      <h2>Papers</h2>
-        <ul>
-          <li>
-                        <b>Variance Regularizing Adversarial Learning</b><br>
-                        *Karan Grewal, *R Devon Hjelm, Yoshua Bengio.<br>
-                        ICML 2017 workshop on Implicit Generative Models.<br>
-                        [<a href="https://arxiv.org/pdf/1707.00309.pdf" target="_blank">pdf</a>] [<a href="http://www.cs.toronto.edu/~grewal/vral.pdf" target="_blank">slides</a>]<br>
-                        </li>
-          <li>
-                        <b>On the Challenges of Detecting Rude Conversational Behaviour</b><br>
-                        Karan Grewal, Khai N. Truong.<br>
-                        ArXiv pre-print, 2017.<br>
-                        [<a href="https://arxiv.org/pdf/1712.09929.pdf" target="_blank">pdf</a>]<br>
-                        </li>
-        </ul>
-
-      <h2>Other</h2>
-        <ul>
-          <li>
-            <a href="https://duvenaud.github.io/learn-discrete/slides/rsvi.pdf" target="_blank">Slides</a> from a presentation I gave on Rejection Sampling Variational Inference (RSVI).
+        <p>
+            <a href="fr.html">À propos de moi...</a>
+          </p>
+        </div>
+        
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 plasmoid-like">
+          <h3>Papers</h3>
+          <ul>
+            <li>
+              <b>Variance Regularizing Adversarial Learning</b><br>
+              *Karan Grewal, *R Devon Hjelm, Yoshua Bengio.<br>
+              ICML 2017 workshop on Implicit Generative Models.<br>
+              [<a href="https://arxiv.org/pdf/1707.00309.pdf" target="_blank">pdf</a>] [<a href="http://www.cs.toronto.edu/~grewal/vral.pdf" target="_blank">slides</a>]<br>
             </li>
-          <li>
-            <font color="ff8080">Dans mon temps libre, j'essaie d'améliorer mon français par pratiquer parler aux événements sociaux et en lisant des livres pour enfants. N'hésitez pas à m'envoyer un courriel en français.</font>
+            <li>
+              <b>On the Challenges of Detecting Rude Conversational Behaviour</b><br>
+              Karan Grewal, Khai N. Truong.<br>
+              ArXiv pre-print, 2017.<br>
+              [<a href="https://arxiv.org/pdf/1712.09929.pdf" target="_blank">pdf</a>]<br>
             </li>
-        </ul>
-
-      <br>
+          </ul>
+        </div>
+      </div>
     </div>
+      <hr>
+      <footer>
+  <span class="muted">
+  <p class ="text-center" id="copyFooter">
+  <!-- filled by jQuery below -->
+  </p>
+  </span>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="bootstrap/js/jquery.js"><\/script>')</script>
+    <!-- Bootstrap jQuery plugins compiled and minified -->
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="ip.php"></script>
+    <script src="js/footer.js"></script>
+    <script>
+      $(document).ready(function(){
+      $("[data-toggle='tooltip']").tooltip();
+      fillFooter();
+      $('.carousel').carousel({interval:0});
+      });
+      $('.captionCollapseIcon').click(function(){
+      $('.carousel-control').toggle();
+      if ($('i',this).attr('class') == 'glyphicon glyphicon-minus-sign glyphicon-white') {
+          $('i',this).attr('class','glyphicon glyphicon-plus-sign glyphicon-white');
+      } else {
+          $('i',this).attr('class','glyphicon glyphicon-minus-sign glyphicon-white');
+      }
+      });
+     </script>
   </body>
 </html>
-
